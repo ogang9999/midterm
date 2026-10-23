@@ -5,7 +5,7 @@ int *bad() {
     int *p = &a;
     return p;
 } 
-
+// bad!
 int main(void) {
     int *k = bad();
     printf("%p\n", (void *)k); //dangling pointer
