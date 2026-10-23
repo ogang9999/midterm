@@ -12,3 +12,5 @@ int main(void) {
 
     return 0;
 }
+
+//I hate C
