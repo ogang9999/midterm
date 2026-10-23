@@ -11,7 +11,8 @@ int main(void) {
     printf("%p\n", (void *)k); //dangling pointer
     int a = 3;
     int b = 4;
-    int c = 1; // entend conflict
+    int c = 5; // entend conflict
+
 
     return 0;
 }
